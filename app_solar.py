@@ -2,16 +2,6 @@ import streamlit as st
 import math
 import pandas as pd
 
-# Logo no canto superior esquerdo com tamanho reduzido
-st.markdown(
-    """
-    <div style="display: flex; align-items: center;">
-        <img src="solarmap.png" alt="Logo" style="height: 60px; margin-right: 10px;">
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
 st.title("☀️ SolarMap")
 st.write("""
 App para estimativa de:
@@ -78,4 +68,4 @@ if st.button("🔍 Calcular"):
         st.map(df_coordenadas, zoom=16)
 
 st.markdown("---")
-st.caption("Desenvolvido por Bernardo - Fórmulas adaptadas de INPE")
+st.caption("Desenvolvido por ~Montijo - Fórmulas adaptadas de INPE")
