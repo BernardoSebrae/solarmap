@@ -2,7 +2,7 @@ import streamlit as st
 import math
 import pandas as pd
 
-st.title("☀️ Calculadora Solar Georreferenciada")
+st.title("☀️ SolarMap")
 st.write("""
 App para estimativa de:
 - **Inclinação ideal** de placas solares
