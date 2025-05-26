@@ -1,4 +1,7 @@
 import streamlit as st
+
+st.image("solarmap.png", use_column_width=True)
+import streamlit as st
 import math
 import pandas as pd
 
