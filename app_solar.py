@@ -68,4 +68,4 @@ if st.button("🔍 Calcular"):
         st.map(df_coordenadas, zoom=16)
 
 st.markdown("---")
-st.caption("Desenvolvido com ❤️ por [Seu Nome] - Fórmulas adaptadas de INPE")
+st.caption("Desenvolvido por Bernardo - Fórmulas adaptadas de INPE")
