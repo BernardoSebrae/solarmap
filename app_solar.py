@@ -2,7 +2,7 @@ import streamlit as st
 import math
 import pandas as pd
 
-# Logo no canto superior esquerdo e pequeno
+# Logo no canto superior esquerdo com tamanho reduzido
 st.markdown(
     """
     <div style="display: flex; align-items: center;">
@@ -78,4 +78,4 @@ if st.button("🔍 Calcular"):
         st.map(df_coordenadas, zoom=16)
 
 st.markdown("---")
-st.caption("Desenvolvido por ~Montijo - Fórmulas adaptadas de INPE")
+st.caption("Desenvolvido por Bernardo - Fórmulas adaptadas de INPE")
