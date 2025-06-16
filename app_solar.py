@@ -2,6 +2,9 @@ import streamlit as st
 import math
 import pandas as pd
 
+# Mostra a logo no topo
+st.image("solarize.png", width=150)  # Você pode ajustar o tamanho conforme necessário
+
 st.title("☀️ Solarize")
 st.write("""
 App para estimativa de:
